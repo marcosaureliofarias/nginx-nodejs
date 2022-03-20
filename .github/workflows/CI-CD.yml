@@ -13,5 +13,8 @@ jobs:
       - name: Permission bash
         run: chmod +x start.sh 
 
+      - name: install packges
+        run: npm install
+
       - name: Build image 
         run: docker build -t app .
