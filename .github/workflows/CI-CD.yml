@@ -1,0 +1,17 @@
+name: CI-CD nginx node js
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Latest Repo
+        uses: actions/checkout@master
+
+      - name: Permission bash
+        run: chmod +x start.sh 
+
+      - name: Build image 
+        run: docker built -t nginx .
