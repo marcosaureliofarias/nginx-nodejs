@@ -2,7 +2,7 @@ name: CI-CD nginx node js
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   deploy:
     runs-on: ubuntu-latest
