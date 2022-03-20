@@ -14,4 +14,4 @@ jobs:
         run: chmod +x start.sh 
 
       - name: Build image 
-        run: docker built -t nginx .
+        run: docker build -t app .
