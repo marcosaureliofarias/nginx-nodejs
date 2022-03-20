@@ -16,10 +16,6 @@ jobs:
       - name: Permission bash
         run: chmod +x start.dev.sh 
 
-      - name: paste in aplication
-        run: cd app
-
-
       - name: install packges
         run: npm install
 
