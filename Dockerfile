@@ -1,7 +1,7 @@
 
 FROM nginx
 
-LABEL version="1.0.0" description="Container Nginx e NodeJS" maintainer="Antoniel Lima<antoniel@desenroladev.com.br>"
+LABEL version="1.0.0" description="Container Nginx e NodeJS" maintainer="Marcos <marcosaureliofarias2023@gmail.com>"
 
 WORKDIR /app
 
